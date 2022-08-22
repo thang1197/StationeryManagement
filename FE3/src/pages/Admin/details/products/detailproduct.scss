@@ -1,0 +1,104 @@
+.home{
+    display: flex;
+    .homeContainer{
+        flex: 85%;
+        .details{
+            display: flex;
+            padding-top: 30px;
+            .left{
+                flex:20%;
+                text-align: center;
+                margin-top: 200px;
+                img{
+                    width: 150px;
+                    height: 150px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+            }
+            .right{
+                flex:85%;           
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home{
+        display: flex;
+        .homeContainer{
+            flex: 70%;
+            padding-top: 30px;
+            .details{
+                display: flex;
+                .left{
+                    flex:20%;
+                    text-align: center;
+                    margin-top: 200px;
+                    img{
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+                .right{
+                    flex:85%;           
+                }
+            }           
+        }
+    }  
+}
+@media screen and (max-width: 750px) {
+    .home{
+        display: flex;
+        .homeContainer{
+            flex: 40%;
+            .details{
+                display: flex;
+                flex-direction: column;
+                .left{
+                    flex:20%;
+                    text-align: center;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    img{
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+                .right{
+                    flex:85%;           
+                }
+            }
+        }
+    }    
+}
+@media screen and (max-width: 500px) {
+    .home{
+        display: flex;
+        .homeContainer{
+            flex: 40%;
+            .details{
+                display: flex;
+                .left{
+                    flex:20%;
+                    text-align: center;
+                    margin-top: 200px;
+                    img{
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+                .right{
+                    flex:85%;
+                    width: 99%;          
+                }
+            }
+        }
+    }    
+}

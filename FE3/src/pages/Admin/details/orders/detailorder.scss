@@ -1,0 +1,46 @@
+.home{
+    display: flex;
+    .homeContainer{
+        flex: 85%;
+        .details{
+            display: flex;
+            padding-top: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home{
+        display: flex;
+        .homeContainer{
+            flex: 70%;
+            padding-top: 30px;
+            .details{
+                display: flex;
+            }           
+        }
+    }  
+}
+@media screen and (max-width: 750px) {
+    .home{
+        display: flex;
+        .homeContainer{
+            flex: 40%;
+            .details{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }    
+}
+@media screen and (max-width: 500px) {
+    .home{
+        display: flex;
+        .homeContainer{
+            flex: 40%;
+            .details{
+                display: flex;
+            }
+        }
+    }    
+}

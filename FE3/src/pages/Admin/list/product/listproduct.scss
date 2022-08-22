@@ -1,0 +1,47 @@
+.Prohome{
+    display: flex;
+    .ProhomeContainer{
+        flex: 85%;
+        .btn-create-pro{
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Prohome{
+        display: flex;
+        .ProhomeContainer{
+            flex: 70%;
+            .btn-create-pro{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }  
+}
+@media screen and (max-width: 750px) {
+    .Prohome{
+        display: flex;
+        .ProhomeContainer{
+            flex: 40%;
+            .btn-create-pro{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }    
+}
+@media screen and (max-width: 500px) {
+    .Prohome{
+        display: flex;
+        .ProhomeContainer{
+            flex: 40%;
+            .btn-create-pro{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }    
+}

@@ -1,0 +1,18 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    .profile-bottom{
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        .profile-a{
+            border: 1px solid rgb(224, 219, 219);
+            border-radius: 30px 30px 30px 30px;
+
+            .tabs{
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+        }
+    }
+}

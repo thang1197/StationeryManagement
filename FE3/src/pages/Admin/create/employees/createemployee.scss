@@ -1,0 +1,95 @@
+.home{
+    display: flex;
+    .homeContainer{
+        flex: 85%;
+        margin-bottom: 40px;
+        .create{
+            display: flex;
+            padding-top: 30px;
+            .btn-create-emp{
+                margin-left: 40%;
+                margin-bottom: 5px;
+                width: 100px;
+                height: 40px;
+            }
+            .btn-back-emp{
+                margin-left: 5px;
+                margin-bottom: 5px;
+                width: 100px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .home{
+        display: flex;
+        .homeContainer{
+            flex: 70%;
+            padding-top: 30px;
+            .create{
+                display: flex;
+                .btn-create-emp{
+                    margin-left: 30%;
+                    margin-bottom: 5px;
+                    width: 100px;
+                    height: 40px;
+                }
+                .btn-back-emp{
+                    margin-left: 5px;
+                    margin-bottom: 5px;
+                    width: 100px;
+                    height: 40px;
+                }
+            }           
+        }
+    }  
+}
+@media screen and (max-width: 750px) {
+    .home{
+        display: flex;
+        .homeContainer{
+            flex: 40%;
+            .create{
+                display: flex;
+                flex-direction: column;
+                .btn-create-emp{
+                    margin-left: 20%;
+                    margin-bottom: 5px;
+                    width: 100px;
+                    height: 40px;
+                }
+                .btn-back-emp{
+                    margin-left: 5px;
+                    margin-bottom: 5px;
+                    width: 100px;
+                    height: 40px;
+                }
+            }
+        }
+    }    
+}
+@media screen and (max-width: 500px) {
+    .home{
+        display: flex;
+        .homeContainer{
+            flex: 40%;
+            .create{
+                display: flex;
+                .btn-create-emp{
+                    margin-left: 30%;
+                    margin-bottom: 5px;
+                    width: 100px;
+                    height: 40px;
+                }
+                .btn-back-emp{
+                    margin-left: 5px;
+                    margin-bottom: 5px;
+                    width: 100px;
+                    height: 40px;
+                }
+            }
+        }
+    }    
+}

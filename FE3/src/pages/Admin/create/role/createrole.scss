@@ -1,0 +1,43 @@
+.role{
+    display: flex;
+    .roleContainer{
+        flex: 85%;
+        .create{
+            padding-top: 10%;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .role{
+        display: flex;
+        .roleContainer{
+            flex: 70%;
+            .create{
+                padding-top: 10px;
+            }
+        }
+    }  
+}
+@media screen and (max-width: 750px) {
+    .role{
+        display: flex;
+        .roleContainer{
+            flex: 40%;
+            .create{
+                padding-top: 10px;
+            }
+        }
+    }    
+}
+@media screen and (max-width: 500px) {
+    .role{
+        display: flex;
+        .roleContainer{
+            flex: 40%;
+            .create{
+                padding-top: 10px;
+            }
+        }
+    }    
+}

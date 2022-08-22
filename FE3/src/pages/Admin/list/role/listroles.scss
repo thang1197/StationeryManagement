@@ -1,0 +1,47 @@
+.Rolehome{
+    display: flex;
+    .RolehomeContainer{
+        flex: 85%;
+        .btn-create-role{
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Rolehome{
+        display: flex;
+        .RolehomeContainer{
+            flex: 70%;
+            .btn-create-role{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }  
+}
+@media screen and (max-width: 750px) {
+    .Rolehome{
+        display: flex;
+        .RolehomeContainer{
+            flex: 40%;
+            .btn-create-role{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }    
+}
+@media screen and (max-width: 500px) {
+    .Rolehome{
+        display: flex;
+        .RolehomeContainer{
+            flex: 40%;
+            .btn-create-role{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }    
+}

@@ -1,0 +1,51 @@
+.navbar{
+    border-bottom: 1px solid rgb(168, 163, 163);
+
+    .btn-shopping-cart{
+        display: flex;
+        background-color: whitesmoke;
+        color: black;
+        border: 1px solid black;
+        .title{
+            padding-right: 5px;
+        }
+        .quantity{
+            border-radius: 50rem;
+            position: relative;
+            padding:  2px 7px 2px 7px ;
+            background-color: black;
+            color: white;
+            font-weight: 600;
+            font-size: 0.75em;
+        }
+    }
+    
+    .btn-shopping-cart:hover{
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+    }
+
+    .user{
+        display: flex;
+        align-items: center;
+    }
+    
+}
+.notifi{
+    display: flex;
+    align-items: center;
+}
+
+.notifiItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 5px;
+    border-bottom: 2px solid rgb(49, 48, 48);
+}
+
+.notiIcon{
+    cursor: pointer;
+}
+

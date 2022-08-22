@@ -1,0 +1,66 @@
+.homeAdmin{
+    display: flex;
+    .homeAdminContainer{
+        flex: 84%;
+        .widgets, .charts{
+            display: flex;
+            padding: 10px;
+            
+        }
+        .charts{
+            padding: 5px 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .homeAdmin{
+        display: flex;
+        .homeAdminContainer{
+            flex: 70%;
+
+            .widgets, .charts{
+                display: flex;
+                padding: 20px;
+            }
+            .charts{
+                flex-direction: column;
+                padding: 5px 20px;
+            }
+        }
+    }  
+}
+@media screen and (max-width: 750px) {
+    .homeAdmin{
+        display: flex;
+        .homeAdminContainer{
+            flex: 60%;
+            .widgets, .charts{
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+            }
+            .charts{
+                flex-direction: column;
+                padding: 5px 20px;
+            }
+        }
+    }    
+}
+@media screen and (max-width: 500px) {
+    .homeAdmin{
+        display: flex;
+        .homeAdminContainer{
+            flex: 40%;
+            .widgets, .charts{
+                display: flex;
+                flex-direction: column;
+                padding: 20px;
+            }
+            .charts{
+                flex-direction: column;
+                padding: 5px 20px;
+            }
+        }
+    }    
+}

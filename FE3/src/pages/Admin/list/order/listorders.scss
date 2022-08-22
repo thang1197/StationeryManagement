@@ -1,0 +1,48 @@
+.Orderhome{
+    display: flex;
+    .OrderhomeContainer{
+        flex: 85%;
+
+        .btn-create-order{
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Orderhome{
+        display: flex;
+        .OrderhomeContainer{
+            flex: 70%;
+            .btn-create-order{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }  
+}
+@media screen and (max-width: 750px) {
+    .Orderhome{
+        display: flex;
+        .OrderhomeContainer{
+            flex: 40%;
+            .btn-create-order{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }    
+}
+@media screen and (max-width: 500px) {
+    .Orderhome{
+        display: flex;
+        .OrderhomeContainer{
+            flex: 40%;
+            .btn-create-order{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }    
+}

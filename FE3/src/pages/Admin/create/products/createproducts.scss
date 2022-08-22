@@ -1,0 +1,125 @@
+.ProCrhome{
+    display: flex;
+    .ProCrhomeContainer{
+        flex: 85%;
+        margin-bottom: 40px;
+        .create-proCr{
+            display: flex;
+            padding-top: 30px;
+            .image{
+                display: flex;
+                align-items: center;
+                padding: 30px;
+                img{
+                    width: auto;
+			        height: 300px
+                }
+            }
+            .text{
+                font-size: 15px;
+                color: red;
+                padding-left: 30px;
+            }
+            .btn-create-pro{
+                margin-left: 40%;
+                margin-bottom: 5px;
+                width: 100px;
+                height: 40px;
+            }
+            .btn-back-pro{
+                margin-left: 5px;
+                margin-bottom: 5px;
+                width: 100px;
+                height: 40px;
+            }
+         
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .ProCrhome{
+        display: flex;
+        .ProCrhomeContainer{
+            flex: 60%;
+            margin-top: -30px; 
+            .create-proCr{
+                display: flex;
+                flex-direction: column;
+                .image{
+                    display: flex;
+                    align-items: center;
+                    padding: 30px;
+                    img{
+                        width: auto;
+                        height: 300px
+                    }
+                }
+                .text{
+                    font-size: 15px;
+                    color: red;
+                    padding-left: 30px;
+                }  
+                .btn-create-pro{
+                    margin-left: 30%;
+                    margin-bottom: 5px;
+                    width: 100px;
+                    height: 40px;
+                }
+                .btn-back-pro{
+                    margin-left: 5px;
+                    margin-bottom: 5px;
+                    width: 100px;
+                    height: 40px;
+                }
+            }           
+        }
+    }  
+}
+@media screen and (max-width: 750px) {
+    .ProCrhome{
+        display: flex;
+        .ProCrhomeContainer{
+            flex: 40%;
+            .create-proCr{
+                display: flex;
+                flex-direction: column;
+                .btn-create-pro{
+                    margin-left: 20%;
+                    margin-bottom: 5px;
+                    width: 100px;
+                    height: 40px;
+                }
+                .btn-back-pro{
+                    margin-left: 5px;
+                    margin-bottom: 5px;
+                    width: 100px;
+                    height: 40px;
+                }
+            }
+        }
+    }    
+}
+@media screen and (max-width: 500px) {
+    .ProCrhome{
+        display: flex;
+        .ProCrhomeContainer{
+            flex: 40%;
+            .create-proCr{
+                display: flex;
+                .btn-create-pro{
+                    margin-left: 30%;
+                    margin-bottom: 5px;
+                    width: 100px;
+                    height: 40px;
+                }
+                .btn-back-pro{
+                    margin-left: 5px;
+                    margin-bottom: 5px;
+                    width: 100px;
+                    height: 40px;
+                }
+            }
+        }
+    }    
+}

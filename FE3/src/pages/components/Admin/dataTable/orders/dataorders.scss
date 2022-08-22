@@ -1,0 +1,67 @@
+.datatableorder{
+    height: 80vh;
+    padding: 20px;
+
+
+    .cellWithStatus{
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Confirming{
+            background-color:rgba(255, 127, 80, 0.279);
+            color: coral;
+        }
+
+        &.OnProcess{
+            background-color:rgba(0, 255, 255, 0.104) ;
+            color:darkcyan;
+        }
+        &.OnDelivery{
+            background-color:rgba(255, 0, 212, 0.247) ;
+            color:fuchsia;
+        }
+        &.Delivered{
+            background-color:rgba(26, 255, 0, 0.277) ;
+            color:green;
+        }
+        &.Canceled{
+            background-color:rgba(255, 8, 0, 0.186) ;
+            color:red;
+        }
+
+
+    }
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        
+
+        .editButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: darkblue;
+            border: 1px solid rgba(0, 0, 139, 0.642);
+            cursor: pointer;
+        }
+
+        .deleteButton{
+            padding: 2px 10px;
+            border-radius: 5px;
+            color: red;
+            border: 1px solid rgba(139, 0, 0, 0.642);
+            cursor: pointer;
+        }
+
+        .detailButton{
+            padding: 2px 10px;
+            border-radius: 5px;
+            color: magenta;
+            border: 1px solid rgba(139, 0, 123, 0.642);
+            cursor: pointer;
+        }
+
+
+    }
+}

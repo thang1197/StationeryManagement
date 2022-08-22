@@ -1,0 +1,47 @@
+.Emphome{
+    display: flex;
+    .EmphomeContainer{
+        flex: 85%;
+        .btn-create-emp{
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .Emphome{
+        display: flex;
+        .EmphomeContainer{
+            flex: 70%;
+            .btn-create-emp{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }  
+}
+@media screen and (max-width: 750px) {
+    .Emphome{
+        display: flex;
+        .EmphomeContainer{
+            flex: 40%;
+            .btn-create-emp{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }    
+}
+@media screen and (max-width: 500px) {
+    .Emphome{
+        display: flex;
+        .EmphomeContainer{
+            flex: 40%;
+            .btn-create-emp{
+                padding-top: 10px;
+                padding-left: 20px;
+            }
+        }
+    }    
+}

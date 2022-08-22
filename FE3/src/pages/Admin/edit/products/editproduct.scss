@@ -1,0 +1,14 @@
+.image{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    img{
+        width: auto;
+        height: 300px
+    }
+}
+.text{
+    font-size: 15px !important;
+    color: red !important;
+    padding-left: 30px !important;
+}  

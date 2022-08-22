@@ -1,0 +1,39 @@
+.datatablecategory{
+    height: 80vh;
+    padding: 20px;
+
+
+
+    .cellAction{
+        display: flex;
+        align-items: center;
+        gap:10px;
+        
+
+        .editButton{
+            padding: 2px 5px;
+            border-radius: 5px;
+            color: darkblue;
+            border: 1px solid rgba(0, 0, 139, 0.642);
+            cursor: pointer;
+        }
+
+        .deleteButton{
+            padding: 2px 10px;
+            border-radius: 5px;
+            color: red;
+            border: 1px solid rgba(139, 0, 0, 0.642);
+            cursor: pointer;
+        }
+
+        .detailButton{
+            padding: 2px 10px;
+            border-radius: 5px;
+            color: magenta;
+            border: 1px solid rgba(139, 0, 123, 0.642);
+            cursor: pointer;
+        }
+
+
+    }
+}
